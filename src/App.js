@@ -20,7 +20,7 @@ class App extends Component {
       <div className="App">
        <Router>
         <nav class="mb-1 navbar navbar-expand-lg navbar-dark  teal darken-2">
-          <a class="navbar-brand" href="#">Mada'Script</a>
+          <Link to="/" class="navbar-brand">Mada'Script</Link>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
             aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
