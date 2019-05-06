@@ -29,7 +29,6 @@ class App extends Component {
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                <Link to="/" class="nav-link">Acceuil</Link>
-                  <span class="sr-only">(current)</span>
               </li>
               <li class="nav-item">
                 <Link to="/Apropos" class="nav-link">Apropos</Link>
@@ -74,7 +73,7 @@ class App extends Component {
             </ul>
           </div>
         </nav>
-
+ 
           <Route exact path="/" component={Home} />
           <Route path="/Apropos" component={Apropos} />
           <Route path="/Contact" component={Contact} />
